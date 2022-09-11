@@ -1,0 +1,51 @@
+/*==========  section footer ==========*/
+footer {
+  padding: 124px 0 100px; }
+  footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 55px;
+    margin: 0 auto 40px; }
+  footer .box-text {
+    text-align: center;
+    width: 100%;
+    font-size: 36px; }
+    footer .box-text p {
+      margin: 0; }
+
+.list-social {
+  margin: 93px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .list-social li {
+    margin: 0 38px 36px 0; }
+    .list-social li:last-child {
+      margin: 0 0 36px; }
+    .list-social li a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      border-radius: 50%;
+      background: #1955ff;
+      width: 84px;
+      height: 84px;
+      min-width: 84px;
+      padding: 18px; }
+      .list-social li a:hover {
+        background: #000; }
+
+/*==========  section footer end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
