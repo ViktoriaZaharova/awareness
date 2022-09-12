@@ -2,7 +2,14 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1300px) {
   .home-footer h3 {
-    max-width: 670px; } }
+    max-width: 670px; }
+  .prises .row {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+  .prices-box {
+    height: auto;
+    max-width: 48%; } }
 
 @media only screen and (max-width: 1200px) {
   .name-author {
@@ -37,7 +44,60 @@
               order: -1;
       margin: 0 0 55px; }
       .for-workshop-footer h3:before {
-        width: 400px; } }
+        width: 400px; }
+  .stages-learn__image {
+    max-width: 400px;
+    margin: 0 0 0 -15px;
+    height: 776px; }
+    .stages-learn__image img {
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .stages-learn__content {
+    width: calc(100% - 400px);
+    padding: 0 0 0 33px; }
+  .stages-learn h2 {
+    margin: 0 auto 112px; }
+  .step-learn {
+    max-width: 500px; }
+  .workshop-instructor__photo {
+    max-width: 450px; }
+  .workshop-instructor__content {
+    width: calc(100% - 450px); }
+  .steps-training {
+    padding: 124px 0 130px;
+    margin: 137px auto 120px; }
+    .steps-training h2 {
+      margin: 0 auto 92px;
+      max-width: 650px; }
+      .steps-training h2 br {
+        display: block; }
+    .steps-training .btn {
+      margin: 124px auto 0; }
+  .steps-training-box:first-child {
+    max-width: 240px; }
+  .steps-training-box:last-child {
+    max-width: 300px;
+    margin: 430px 0 0; }
+  .list-steps-item {
+    margin: 0 0 391px; }
+    .list-steps-item:before {
+      height: 372px;
+      bottom: -380px; }
+  .callback {
+    padding: 138px 0 136px; }
+    .callback h2 {
+      width: 100%;
+      text-align: center; }
+      .callback h2 span {
+        display: block;
+        margin: 0; }
+    .callback .btn {
+      margin: 36px auto 0; }
+  .prises {
+    margin: 120px 0 149px; }
+    .prises h2 {
+      margin: 0 auto 122px; } }
 
 @media only screen and (max-width: 992px) {
   .container {
@@ -60,7 +120,62 @@
     .for-workshop-box:nth-child(4) p {
       max-width: 240px; }
   .for-workshop {
-    margin: 126px 0 107px; } }
+    margin: 126px 0 107px; }
+  .stages-learn__content {
+    padding: 0 0 0 28px; }
+    .stages-learn__content .btn {
+      display: none; }
+  .stages-learn .d-tablet {
+    margin: 128px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .step-learn {
+    max-width: 375px; }
+    .step-learn li:last-child br, .step-learn li:nth-child(2) br {
+      display: none; }
+    .step-learn li:last-child p {
+      display: none; }
+    .step-learn li:last-child .d-tablet {
+      display: block;
+      margin: 0; }
+  .training-format-box {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 104px; }
+    .training-format-box:last-child {
+      margin: 0; }
+    .training-format-box:nth-child(even) {
+      max-width: none; }
+  .workshop-instructor h2 {
+    margin: 0 auto 82px; }
+  .workshop-instructor__content {
+    width: 100%;
+    padding: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+    .workshop-instructor__content h3 {
+      display: none; }
+  .workshop-instructor h3.d-tablet {
+    display: block;
+    margin: 0 auto 111px;
+    text-align: center;
+    font-size: 55px;
+    max-width: 480px;
+    line-height: 1; }
+  .workshop-instructor__photo {
+    margin: 0 auto 58px;
+    max-width: 667px; }
+  footer {
+    padding: 130px 0 103px; }
+    footer .box-text {
+      max-width: 670px;
+      margin: 0 auto; }
+      footer .box-text br {
+        display: block; }
+  .list-social {
+    margin: 114px auto 0; } }
 
 @media only screen and (max-width: 768px) {
   header a {
@@ -107,6 +222,14 @@
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
+  .influence .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .influence .wrapper-grey {
     margin: 139px 0 0;
     padding: 131px 0 138px; }
@@ -115,15 +238,590 @@
     display: none; }
   .influence .d-tablet {
     display: block; }
-  .themes-box:nth-child(even) {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; } }
+  .themes-box {
+    margin: 0 0 40px; }
+    .themes-box:nth-child(even) {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+    .themes-box:last-child {
+      margin: 0; }
+  .themes {
+    margin: 125px 0 115px; }
+  .step-learn li {
+    padding: 0 0 50px 50px;
+    margin: 0 0 50px; }
+    .step-learn li:before {
+      width: 111px; }
+    .step-learn li:last-child {
+      padding-left: 50px; }
+  .stages-learn__image {
+    max-width: 384px; }
+  .stages-learn__content {
+    width: calc(100% - 384px); }
+  .training-format {
+    margin: 101px 0 112px; }
+    .training-format h2 {
+      margin: 0 auto 98px; }
+    .training-format .box-text {
+      margin: 0 auto 112px; }
+  .prises h2 {
+    max-width: 500px; }
+  .prises .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .prices-box {
+    margin: 0 auto 70px;
+    max-width: 420px; }
+    .prices-box .box-text {
+      margin: 0 auto 55px; }
+    .prices-box:last-child {
+      margin: 0 auto; }
+    .prices-box .price {
+      margin: 0 auto 78px; } }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  /**/ }
+@media only screen and (max-width: 700px) {
+  .stages-learn__image {
+    max-width: 300px; }
+  .stages-learn__content {
+    width: calc(100% - 300px); } }
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 60px;
+    margin: 21px 0 47px; }
+  .name-author {
+    font-size: 40px; }
+  header {
+    padding: 23px 0; }
+  .logo {
+    max-width: 221px; }
+  .home {
+    padding: 160px 0 89px; }
+    .home .description {
+      font-size: 26px;
+      margin: 0 0 48px; }
+  .home-footer h3 {
+    font-size: 45px; }
+  h2 {
+    font-size: 34.5px; }
+  .for-workshop-box {
+    max-width: 48%; }
+    .for-workshop-box:first-child, .for-workshop-box:nth-child(2), .for-workshop-box:nth-child(3), .for-workshop-box:nth-child(4) {
+      max-width: 48%; }
+  .stages-learn__image {
+    max-width: 240px;
+    height: 486px; }
+  .stages-learn__content {
+    width: calc(100% - 240px);
+    padding: 0 0 0 5px; }
+  .step-learn {
+    font-size: 22px; } }
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 44.5px; }
+  .name-author {
+    font-size: 31px; }
+  .btn {
+    height: 46px;
+    font-size: 13px;
+    padding: 0 28px; }
+  .home {
+    background-position: center top; }
+    .home .description {
+      font-size: 20.5px; }
+  .home-list {
+    margin: 106px 0 43px;
+    font-size: 19px; }
+  .list-star li {
+    padding: 0 0 0 67px; }
+    .list-star li:before {
+      width: 42px;
+      height: 41px; }
+  .home-footer {
+    margin: 0 0 60px; }
+    .home-footer h3 {
+      padding: 32px 0 0;
+      font-size: 34.5px; }
+    .home-footer .box-text {
+      margin: 54px 0 0;
+      font-size: 18.5px;
+      line-height: 1.11; }
+  .for-workshop {
+    margin: 76px 0 66px; }
+    .for-workshop h2 {
+      margin: 0 auto 62px; }
+  .for-workshop-box {
+    font-size: 18.5px;
+    margin: 0 0 75px; }
+    .for-workshop-box__icon {
+      margin: 0 0 29px;
+      height: 43px; }
+      .for-workshop-box__icon img {
+        max-height: 100%; }
+    .for-workshop-box:first-child p {
+      max-width: 210px; }
+    .for-workshop-box:nth-child(2) p, .for-workshop-box:nth-child(3) p {
+      max-width: 190px; }
+    .for-workshop-box:last-child p {
+      max-width: 150px; }
+  body {
+    font-size: 19px; }
+  .for-workshop-footer {
+    margin: 0; }
+    .for-workshop-footer h3 {
+      font-size: 34.5px;
+      margin: 0;
+      padding: 17px 0 0; }
+      .for-workshop-footer h3 br {
+        display: none; }
+      .for-workshop-footer h3:before {
+        height: 1px;
+        width: 250px;
+        border-top: 2px solid #000; }
+    .for-workshop-footer .box-text {
+      margin: 47px 0 40px;
+      font-size: 19px; }
+  .box-text {
+    font-size: 19px; }
+  .influence h2 {
+    max-width: 430px; }
+  .influence .wrapper-grey {
+    margin: 86px auto 0;
+    padding: 82px 0 86px; }
+  .influence h3 {
+    margin: 69px auto 0;
+    font-size: 34.5px;
+    max-width: 420px; }
+  .influence-box {
+    margin: 0 auto 59px;
+    font-size: 19px;
+    max-width: 275px; }
+    .influence-box__icon {
+      margin: 0 auto 31px;
+      max-width: 34px; }
+  .themes {
+    margin: 78px 0 70px; }
+    .themes h2 {
+      margin: 0 auto 62px; }
+  .themes-box {
+    font-size: 19px; }
+    .themes-box__number {
+      margin: 0 21px 0 0;
+      font-size: 122px;
+      min-width: 130px; }
+      .themes-box__number:first-letter {
+        letter-spacing: -6.1px; }
+  .step-learn {
+    font-size: 18px; }
+    .step-learn li {
+      padding: 0 0 35px 35px;
+      margin: 0 0 35px; }
+      .step-learn li:last-child {
+        padding-left: 35px; }
+      .step-learn li:before {
+        width: 70px;
+        height: 3px; }
+  .stages-learn h2 {
+    margin: 0 auto 69px; }
+  .stages-learn .btn.d-tablet {
+    margin: 80px auto 0; }
+  .training-format {
+    margin: 63px 0 69px; }
+    .training-format h2 {
+      margin: 0 auto 60px; }
+    .training-format .box-text {
+      margin: 0 auto 69px;
+      max-width: 375px; }
+      .training-format .box-text p:last-child {
+        max-width: 320px;
+        margin: 0 auto; }
+  .box-text p {
+    margin: 0 0 30px; }
+  .training-format-box {
+    margin: 0 0 64px; }
+    .training-format-box:last-child {
+      margin: 0; }
+    .training-format-box__number {
+      margin: 0 14px 0 0;
+      width: 61px;
+      height: 61px;
+      min-width: 61px;
+      font-size: 30px; }
+    .training-format-box:first-child .training-format-box__text {
+      max-width: 280px; }
+    .training-format-box:nth-child(2) .training-format-box__text {
+      max-width: 350px; }
+    .training-format-box:nth-child(3) .training-format-box__text {
+      max-width: 300px; }
+    .training-format-box:nth-child(4) .training-format-box__text {
+      max-width: 340px; }
+  .workshop-instructor h2 {
+    margin: 0 auto 50px; }
+  .workshop-instructor h3.d-tablet {
+    margin: 0 auto 69px;
+    font-size: 34.5px; }
+  .workshop-instructor__photo {
+    max-width: 418px;
+    margin: 0 auto 35px; }
+  .workshop-instructor-advantages li {
+    margin: 0 0 20px;
+    padding: 0 0 0 36px; }
+    .workshop-instructor-advantages li:before {
+      width: 23px;
+      height: 23px; }
+  .steps-training {
+    margin: 85px 0 75px;
+    padding: 78px 0 81px; }
+    .steps-training h2 {
+      margin: 0 auto 57px; }
+    .steps-training .btn {
+      margin: 77px auto 0; }
+  .steps-training-box__icon {
+    margin: 0 auto 15px;
+    max-width: 63px; }
+  .steps-training-box:first-child {
+    max-width: 155px; }
+  .steps-training-box:last-child {
+    max-width: 175px;
+    margin: 280px 0 0; }
+  .list-steps {
+    top: 14px; }
+  .list-steps-item {
+    width: 31px;
+    min-width: 31px;
+    height: 31px;
+    margin: 0 0 244px;
+    font-size: 19px; }
+    .list-steps-item:before {
+      height: 233px;
+      bottom: -237px; }
+  .prises {
+    margin: 75px 0 92px; }
+    .prises h2 {
+      margin: 0 auto 75px; }
+  .prices-box {
+    max-width: 262px;
+    margin: 0 auto 44px;
+    padding: 55px 25px; }
+    .prices-box .price {
+      font-size: 30px;
+      margin: 0 auto 48px; }
+    .prices-box h3 {
+      font-size: 19px; }
+    .prices-box .btn {
+      max-width: 207px;
+      height: 46px;
+      font-size: 11.5px; }
+    .prices-box:last-child {
+      padding: 55px 12px; }
+      .prices-box:last-child .price {
+        margin: 0 auto 23px; }
+  .callback {
+    padding: 85px 0; }
+    .callback .btn {
+      margin: 22px auto 0;
+      max-width: 208px; }
+    .callback h2 {
+      font-size: 20.5px; }
+  footer {
+    padding: 81px 0 87px; }
+    footer h3 {
+      font-size: 34.5px;
+      margin: 0 auto 30px; }
+    footer .box-text {
+      font-size: 22.5px; }
+  .list-social {
+    margin: 70px auto 0; }
+    .list-social li {
+      margin: 0 22px 0 0; }
+      .list-social li:last-child {
+        margin: 0; }
+      .list-social li a {
+        width: 54px;
+        height: 54px;
+        min-width: 54px;
+        padding: 12px; } }
+
+@media only screen and (max-width: 440px) {
+  footer {
+    padding: 53px 0 58px; }
+    footer h3 {
+      font-size: 23px;
+      max-width: 300px;
+      margin: 0 auto 20px; }
+    footer .box-text {
+      font-size: 15px; }
+  .list-social {
+    margin: 46px auto 0; }
+    .list-social li {
+      margin: 0 15px 0 0; }
+      .list-social li a {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        padding: 10px; }
+  .btn {
+    height: 31px;
+    font-size: 12px;
+    padding: 0 20px; }
+  .prises {
+    margin: 50px 0 61px; }
+    .prises h2 {
+      margin: 0 auto 50px;
+      max-width: 210px; }
+  h2 {
+    font-size: 23px; }
+  .prices-box {
+    margin: 0 auto 29px; }
+  .steps-training {
+    padding: 52px 0 54px;
+    margin: 56px 0 50px; }
+    .steps-training h2 {
+      margin: 0 auto 38px; }
+    .steps-training .btn {
+      margin: 50px auto 0; }
+  .steps-training-box {
+    font-size: 12.5px; }
+    .steps-training-box p {
+      margin: 0 0 20px; }
+      .steps-training-box p:last-child {
+        margin: 0; }
+    .steps-training-box__icon {
+      margin: 0 auto 9px;
+      max-width: 42px; }
+    .steps-training-box:first-child {
+      max-width: 110px; }
+    .steps-training-box:last-child {
+      margin: 200px 0 0;
+      max-width: 120px; }
+  .list-steps {
+    top: 10px; }
+  .list-steps-item {
+    width: 31px;
+    height: 31px;
+    min-width: 31px;
+    margin: 0 0 162px;
+    font-size: 12.5px; }
+    .list-steps-item:before {
+      height: 155px;
+      bottom: -158px; }
+  .workshop-instructor h3.d-tablet {
+    font-size: 23px;
+    margin: 0 auto 45px;
+    max-width: 210px; }
+  .workshop-instructor h2 {
+    margin: 0 auto 32px; }
+  .workshop-instructor__photo {
+    max-width: 280px;
+    margin: 0 auto 23px; }
+  .workshop-instructor-advantages {
+    max-width: 280px;
+    margin: 0 auto; }
+    .workshop-instructor-advantages li {
+      padding: 0 0 0 23px; }
+      .workshop-instructor-advantages li:before {
+        width: 15px;
+        height: 15px; }
+  .training-format {
+    margin: 41px 0 45px; }
+    .training-format h2 {
+      margin: 0 auto 39px; }
+    .training-format .box-text {
+      margin: 0 auto 45px;
+      font-size: 12.5px;
+      max-width: 260px; }
+      .training-format .box-text p {
+        margin: 0 0 20px; }
+  .training-format-box {
+    margin: 0 0 40px; }
+    .training-format-box__number {
+      margin: 0 8px 0 0;
+      width: 42px;
+      height: 42px;
+      min-width: 42px;
+      font-size: 20px; }
+    .training-format-box:first-child .training-format-box__text {
+      max-width: 185px; }
+    .training-format-box:nth-child(2) .training-format-box__text {
+      max-width: 240px; }
+    .training-format-box:nth-child(3) .training-format-box__text {
+      max-width: 210px; }
+    .training-format-box:nth-child(4) .training-format-box__text {
+      max-width: 230px; }
+  .stages-learn h2 {
+    margin: 0 auto 45px; }
+  .stages-learn__image {
+    max-width: 160px;
+    height: 325px; }
+  .stages-learn__content {
+    width: calc(100% - 160px);
+    padding: 0; }
+  .stages-learn .btn.d-tablet {
+    margin: 50px auto 0; }
+  .step-learn {
+    font-size: 12.5px; }
+    .step-learn li {
+      padding: 0 0 25px 23.5px;
+      margin: 0 0 25px; }
+      .step-learn li:last-child {
+        padding-left: 23.5px; }
+      .step-learn li:before {
+        width: 47px;
+        height: 1px; }
+    .step-learn p {
+      max-width: 110px; }
+  .themes {
+    margin: 51px 0 46px; }
+    .themes h2 {
+      margin: 0 auto 45px; }
+  .themes-box {
+    margin: 0 0 10px;
+    font-size: 12.5px; }
+    .themes-box:last-child {
+      margin: 0; }
+    .themes-box__number {
+      font-size: 81.5px;
+      margin: 7px 7px 0 0;
+      min-width: 90px; }
+      .themes-box__number:first-letter {
+        letter-spacing: -4.08px; }
+    .themes-box:first-child .themes-box__text {
+      max-width: 140px; }
+    .themes-box:nth-child(2) .themes-box__text {
+      max-width: 200px; }
+    .themes-box:nth-child(3) .themes-box__text {
+      max-width: 140px; }
+    .themes-box:nth-child(4) .themes-box__text {
+      max-width: 130px; }
+    .themes-box:nth-child(5) .themes-box__text {
+      max-width: 135px; }
+    .themes-box:nth-child(6) .themes-box__text {
+      max-width: 110px; }
+    .themes-box:nth-child(7) .themes-box__text {
+      max-width: 95px; }
+  .influence .wrapper-grey {
+    margin: 57px auto 0;
+    padding: 55px 0 57px; }
+  .influence h3 {
+    font-size: 23px;
+    margin: 45px auto 0; }
+  .influence-box {
+    font-size: 12.5px;
+    max-width: 190px;
+    margin: 0 auto 39px; }
+    .influence-box__icon {
+      margin: 0 auto 19px;
+      max-width: 23px; }
+    .influence-box:nth-child(2) {
+      max-width: 145px; }
+  .for-workshop {
+    margin: 50px 0 43px; }
+    .for-workshop h2 {
+      margin: 0 auto 41px; }
+    .for-workshop .box-text {
+      font-size: 12.5px; }
+  .for-workshop-box {
+    margin: 0 0 47px;
+    font-size: 12.5px; }
+    .for-workshop-box br {
+      display: none; }
+    .for-workshop-box__icon {
+      margin: 0 0 18px;
+      max-height: 29px; }
+    .for-workshop-box:first-child p {
+      max-width: 135px; }
+    .for-workshop-box:nth-child(2) p {
+      max-width: 125px; }
+    .for-workshop-box:nth-child(3) p {
+      max-width: 125px; }
+    .for-workshop-box:last-child p {
+      max-width: 105px; }
+  .for-workshop-footer h3 {
+    font-size: 23px;
+    padding: 10px 0 0; }
+    .for-workshop-footer h3:before {
+      height: 2px;
+      width: 168px;
+      border-top: 2px solid #000; }
+  .for-workshop-footer .box-text {
+    margin: 30px 0; }
+    .for-workshop-footer .box-text p {
+      margin: 0 0 30px; }
+      .for-workshop-footer .box-text p:last-child {
+        margin: 0; }
+  h1 {
+    font-size: 29.5px;
+    margin: 13px 0 30px; }
+  .name-author {
+    font-size: 20.5px; }
+  .home .description {
+    font-size: 13.5px;
+    margin: 0 0 30px; }
+  .home-list {
+    margin: 69px 0 28px;
+    font-size: 12.5px; }
+  .list-star li {
+    padding: 0 0 0 45px;
+    margin: 0 0 30px; }
+    .list-star li:before {
+      width: 28px;
+      height: 27px; }
+  .home-footer {
+    margin: 0 0 40px; }
+    .home-footer h3 {
+      padding: 21px 0 0;
+      font-size: 23px; }
+    .home-footer .box-text {
+      font-size: 12.5px;
+      margin: 35px 0 0; } }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
+@media only screen and (max-width: 380px) {
+  .callback {
+    padding: 58px 0 57px; }
+    .callback h2 {
+      font-size: 13.5px; }
+    .callback .btn {
+      max-width: 138px;
+      margin: 14px auto 0; }
+  .btn {
+    font-size: 7.5px; }
+  .prices-box {
+    max-width: 176px;
+    padding: 37px 19px; }
+    .prices-box .btn {
+      font-size: 7.5px;
+      height: 31px;
+      padding: 0 10px;
+      max-width: 140px; }
+    .prices-box .price {
+      font-size: 20px;
+      margin: 0 auto 31px; }
+    .prices-box h3 {
+      font-size: 12.5px; }
+    .prices-box .box-text {
+      margin: 0 auto 36px;
+      font-size: 12.5px; }
+    .prices-box:last-child {
+      padding: 37px 9px; }
+      .prices-box:last-child .price {
+        margin: 0 auto 14px; }
+      .prices-box:last-child .box-text {
+        margin: 0 0 22px; }
+  body {
+    font-size: 12.5px; }
+  header {
+    padding: 16px 0;
+    border-bottom-width: 2px; }
+  .logo {
+    max-width: 147px; }
+  .home {
+    padding: 106px 0 60px; } }

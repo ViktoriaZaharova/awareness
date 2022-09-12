@@ -12,6 +12,8 @@ footer {
     font-size: 36px; }
     footer .box-text p {
       margin: 0; }
+    footer .box-text br {
+      display: none; }
 
 .list-social {
   margin: 93px auto 0;
@@ -47,5 +49,3 @@ footer {
         background: #000; }
 
 /*==========  section footer end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/

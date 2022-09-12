@@ -3,26 +3,38 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1300px)
+@media only screen and (max-width: 1300px)
   .home-footer
     h3
       max-width: 670px
 
-@media only screen and (max-width : 1200px)
+  .prises
+    .row
+      align-items: stretch
+
+  .prices-box
+    height: auto
+    max-width: 48%
+
+@media only screen and (max-width: 1200px)
   .name-author
     font-size: 70px
 
   .home-footer
     margin: 0 0 97px
+
     h3
       max-width: none
       padding: 53px 0 0
+
     .box-text
       max-width: none
       margin: 87px 0 0
+
       p
         margin: 0
         display: inline
+
         br
           display: none
 
@@ -31,22 +43,102 @@
 
   .for-workshop-footer
     margin: 15px 0 0
+
     .box-text
       max-width: none
       width: 100%
       margin: 0 0 40px
+
       br
         display: none
+
     h3
       max-width: none
       order: -1
       margin: 0 0 55px
+
       &:before
         width: 400px
 
+  .stages-learn__image
+    max-width: 400px
+    margin: 0 0 0 -15px
+    height: 776px
+
+    img
+      height: 100%
+      object-fit: cover
+
+  .stages-learn__content
+    width: calc(100% - 400px)
+    padding: 0 0 0 33px
+
+  .stages-learn
+    h2
+      margin: 0 auto 112px
+
+  .step-learn
+    max-width: 500px
+
+  .workshop-instructor
+    &__photo
+      max-width: 450px
+
+    &__content
+      width: calc(100% - 450px)
+
+  .steps-training
+    padding: 124px 0 130px
+    margin: 137px auto 120px
+
+    h2
+      margin: 0 auto 92px
+      max-width: 650px
+
+      br
+        display: block
+
+    .btn
+      margin: 124px auto 0
 
 
-@media only screen and (max-width : 992px)
+  .steps-training-box
+    &:first-child
+      max-width: 240px
+
+    &:last-child
+      max-width: 300px
+      margin: 430px 0 0
+
+  .list-steps-item
+    margin: 0 0 391px
+
+    &:before
+      height: 372px
+      bottom: -380px
+
+  .callback
+    padding: 138px 0 136px
+
+    h2
+      width: 100%
+      text-align: center
+
+      span
+        display: block
+        margin: 0
+
+    .btn
+      margin: 36px auto 0
+
+  .prises
+    margin: 120px 0 149px
+
+    h2
+      margin: 0 auto 122px
+
+
+@media only screen and (max-width: 992px)
   .container
     max-width: 930px
 
@@ -63,6 +155,7 @@
 
   .home
     padding: 256px 0 144px
+
     .description
       font-size: 33px
       letter-spacing: 0.33px
@@ -70,13 +163,87 @@
 
   .for-workshop-box:nth-child(4)
     max-width: 290px
+
     p
       max-width: 240px
 
   .for-workshop
     margin: 126px 0 107px
 
-@media only screen and (max-width : 768px)
+  .stages-learn
+    &__content
+      padding: 0 0 0 28px
+
+      .btn
+        display: none
+
+    .d-tablet
+      margin: 128px auto 0
+      display: flex
+
+  .step-learn
+    max-width: 375px
+
+    li
+      &:last-child, &:nth-child(2)
+        br
+          display: none
+
+      &:last-child
+        p
+          display: none
+
+        .d-tablet
+          display: block
+          margin: 0
+
+  .training-format-box
+    width: 100%
+    max-width: none
+    margin: 0 0 104px
+    &:last-child
+      margin: 0
+    &:nth-child(even)
+      max-width: none
+
+  .workshop-instructor
+    h2
+      margin: 0 auto 82px
+
+    &__content
+      width: 100%
+      padding: 0
+      order: 1
+
+      h3
+        display: none
+
+    h3.d-tablet
+      display: block
+      margin: 0 auto 111px
+      text-align: center
+      font-size: 55px
+      max-width: 480px
+      line-height: 1
+
+    &__photo
+      margin: 0 auto 58px
+      max-width: 667px
+
+  footer
+    padding: 130px 0 103px
+
+    .box-text
+      max-width: 670px
+      margin: 0 auto
+
+      br
+        display: block
+
+  .list-social
+    margin: 114px auto 0
+
+@media only screen and (max-width: 768px)
   header
     a
       display: none
@@ -88,20 +255,24 @@
   .home
     background: url("../img/bg1-tablet.jpg") no-repeat center
       size: cover
+
     .description
       br
         display: block
 
   .home-list
     max-width: 630px
+
     li
       &:first-child
         max-width: 340px
+
     br
       display: block
 
   .for-workshop
     margin: 121px 0 107px
+
     h2
       margin: 0 auto 100px
 
@@ -117,12 +288,15 @@
     width: 100%
     text-align: center
     margin: 0 auto 83px
+
     &:last-child
       margin: 0 auto
       width: 100%
+
     p
       max-width: 435px
       margin: 0 auto
+
     &__icon
       margin: 0 auto 50px
       display: flex
@@ -130,23 +304,794 @@
       justify-content: center
 
   .influence
+    .row
+      flex-direction: column
+      align-items: center
     .wrapper-grey
       margin: 139px 0 0
       padding: 131px 0 138px
+
     h3
       margin: 111px auto 0
       display: none
+
     .d-tablet
       display: block
 
-  .themes-box:nth-child(even)
-    justify-content: flex-start
+  .themes-box
+    margin: 0 0 40px
+
+    &:nth-child(even)
+      justify-content: flex-start
+
+    &:last-child
+      margin: 0
+
+  .themes
+    margin: 125px 0 115px
+
+
+  .step-learn
+    li
+      padding: 0 0 50px 50px
+      margin: 0 0 50px
+
+      &:before
+        width: 111px
+
+      &:last-child
+        padding-left: 50px
+
+  .stages-learn
+    &__image
+      max-width: 384px
+
+    &__content
+      width: calc(100% - 384px)
+
+  .training-format
+    margin: 101px 0 112px
+
+    h2
+      margin: 0 auto 98px
+
+    .box-text
+      margin: 0 auto 112px
+
+  .prises
+    h2
+      max-width: 500px
+
+    .row
+      flex-direction: column
+      align-items: flex-start
+
+  .prices-box
+    margin: 0 auto 70px
+    max-width: 420px
+
+    .box-text
+      margin: 0 auto 55px
+
+    &:last-child
+      margin: 0 auto
+
+    .price
+      margin: 0 auto 78px
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
+@media only screen and (max-width: 700px)
+  .stages-learn
+    &__image
+      max-width: 300px
+
+    &__content
+      width: calc(100% - 300px)
+
+@media only screen and (max-width: 650px)
+  h1
+    font-size: 60px
+    margin: 21px 0 47px
+
+  .name-author
+    font-size: 40px
+
+  header
+    padding: 23px 0
+
+  .logo
+    max-width: 221px
+
+  .home
+    padding: 160px 0 89px
+
+    .description
+      font-size: 26px
+      margin: 0 0 48px
+
+  .home-footer h3
+    font-size: 45px
+
+  h2
+    font-size: 34.5px
+
+  .for-workshop-box
+    max-width: 48%
+
+    &:first-child, &:nth-child(2), &:nth-child(3), &:nth-child(4)
+      max-width: 48%
+
+  .stages-learn
+    &__image
+      max-width: 240px
+      height: 486px
+
+    &__content
+      width: calc(100% - 240px)
+      padding: 0 0 0 5px
+
+  .step-learn
+    font-size: 22px
+
+@media only screen and (max-width: 576px)
+  h1
+    font-size: 44.5px
+
+  .name-author
+    font-size: 31px
+
+  .btn
+    height: 46px
+    font-size: 13px
+    padding: 0 28px
+
+  .home
+    background-position: center top
+
+    .description
+      font-size: 20.5px
+
+  .home-list
+    margin: 106px 0 43px
+    font-size: 19px
+
+  .list-star
+    li
+      padding: 0 0 0 67px
+
+      &:before
+        width: 42px
+        height: 41px
+
+  .home-footer
+    margin: 0 0 60px
+
+    h3
+      padding: 32px 0 0
+      font-size: 34.5px
+
+    .box-text
+      margin: 54px 0 0
+      font-size: 18.5px
+      line-height: 1.11
+
+  .for-workshop
+    margin: 76px 0 66px
+
+    h2
+      margin: 0 auto 62px
+
+  .for-workshop-box
+    font-size: 18.5px
+    margin: 0 0 75px
+
+    &__icon
+      margin: 0 0 29px
+      height: 43px
+
+      img
+        max-height: 100%
+
+    &:first-child
+      p
+        max-width: 210px
+
+    &:nth-child(2), &:nth-child(3)
+      p
+        max-width: 190px
+
+    &:last-child
+      p
+        max-width: 150px
+
+  body
+    font-size: 19px
+
+  .for-workshop-footer
+    margin: 0
+
+    h3
+      font-size: 34.5px
+      margin: 0
+      padding: 17px 0 0
+
+      br
+        display: none
+
+      &:before
+        height: 1px
+        width: 250px
+        border-top: 2px solid #000
+
+    .box-text
+      margin: 47px 0 40px
+      font-size: 19px
+
+  .box-text
+    font-size: 19px
+
+  .influence
+    h2
+      max-width: 430px
+
+    .wrapper-grey
+      margin: 86px auto 0
+      padding: 82px 0 86px
+
+    h3
+      margin: 69px auto 0
+      font-size: 34.5px
+      max-width: 420px
+
+  .influence-box
+    margin: 0 auto 59px
+    font-size: 19px
+    max-width: 275px
+
+    &__icon
+      margin: 0 auto 31px
+      max-width: 34px
+
+  .themes
+    margin: 78px 0 70px
+
+    h2
+      margin: 0 auto 62px
+
+  .themes-box
+    font-size: 19px
+
+    &__number
+      margin: 0 21px 0 0
+      font-size: 122px
+      min-width: 130px
+
+      &:first-letter
+        letter-spacing: -6.1px
+
+  .step-learn
+    font-size: 18px
+
+    li
+      padding: 0 0 35px 35px
+      margin: 0 0 35px
+
+      &:last-child
+        padding-left: 35px
+
+      &:before
+        width: 70px
+        height: 3px
+
+  .stages-learn
+    h2
+      margin: 0 auto 69px
+
+    .btn.d-tablet
+      margin: 80px auto 0
+
+  .training-format
+    margin: 63px 0 69px
+
+    h2
+      margin: 0 auto 60px
+
+    .box-text
+      margin: 0 auto 69px
+      max-width: 375px
+
+      p
+        &:last-child
+          max-width: 320px
+          margin: 0 auto
+
+  .box-text
+    p
+      margin: 0 0 30px
+
+  .training-format-box
+    margin: 0 0 64px
+    &:last-child
+      margin: 0
+    &__number
+      margin: 0 14px 0 0
+      width: 61px
+      height: 61px
+      min-width: 61px
+      font-size: 30px
+
+    &:first-child
+      .training-format-box__text
+        max-width: 280px
+
+    &:nth-child(2)
+      .training-format-box__text
+        max-width: 350px
+
+    &:nth-child(3)
+      .training-format-box__text
+        max-width: 300px
+
+    &:nth-child(4)
+      .training-format-box__text
+        max-width: 340px
+
+  .workshop-instructor
+    h2
+      margin: 0 auto 50px
+
+    h3.d-tablet
+      margin: 0 auto 69px
+      font-size: 34.5px
+
+    &__photo
+      max-width: 418px
+      margin: 0 auto 35px
+
+  .workshop-instructor-advantages
+    li
+      margin: 0 0 20px
+      padding: 0 0 0 36px
+
+      &:before
+        width: 23px
+        height: 23px
+
+  .steps-training
+    margin: 85px 0 75px
+    padding: 78px 0 81px
+
+    h2
+      margin: 0 auto 57px
+
+    .btn
+      margin: 77px auto 0
+
+  .steps-training-box
+    &__icon
+      margin: 0 auto 15px
+      max-width: 63px
+
+    &:first-child
+      max-width: 155px
+
+    &:last-child
+      max-width: 175px
+      margin: 280px 0 0
+
+  .list-steps
+    top: 14px
+
+  .list-steps-item
+    width: 31px
+    min-width: 31px
+    height: 31px
+    margin: 0 0 244px
+    font-size: 19px
+
+    &:before
+      height: 233px
+      bottom: -237px
+
+  .prises
+    margin: 75px 0 92px
+
+    h2
+      margin: 0 auto 75px
+
+  .prices-box
+    max-width: 262px
+    margin: 0 auto 44px
+    padding: 55px 25px
+
+    .price
+      font-size: 30px
+      margin: 0 auto 48px
+
+    h3
+      font-size: 19px
+
+    .btn
+      max-width: 207px
+      height: 46px
+      font-size: 11.5px
+
+    &:last-child
+      padding: 55px 12px
+
+      .price
+        margin: 0 auto 23px
+
+  .callback
+    padding: 85px 0
+
+    .btn
+      margin: 22px auto 0
+      max-width: 208px
+
+    h2
+      font-size: 20.5px
+
+  footer
+    padding: 81px 0 87px
+
+    h3
+      font-size: 34.5px
+      margin: 0 auto 30px
+
+    .box-text
+      font-size: 22.5px
+
+  .list-social
+    margin: 70px auto 0
+
+    li
+      margin: 0 22px 0 0
+
+      &:last-child
+        margin: 0
+
+      a
+        width: 54px
+        height: 54px
+        min-width: 54px
+        padding: 12px
+
+@media only screen and (max-width: 440px)
+  footer
+    padding: 53px 0 58px
+
+    h3
+      font-size: 23px
+      max-width: 300px
+      margin: 0 auto 20px
+
+    .box-text
+      font-size: 15px
+
+  .list-social
+    margin: 46px auto 0
+    li
+      margin: 0 15px 0 0
+      a
+        width: 36px
+        height: 36px
+        min-width: 36px
+        padding: 10px
+
+  .btn
+    height: 31px
+    font-size: 12px
+    padding: 0 20px
+
+  .prises
+    margin: 50px 0 61px
+    h2
+      margin: 0 auto 50px
+      max-width: 210px
+
+  h2
+    font-size: 23px
+
+  .prices-box
+    margin: 0 auto 29px
+
+  .steps-training
+    padding: 52px 0 54px
+    margin: 56px 0 50px
+    h2
+      margin: 0 auto 38px
+    .btn
+      margin: 50px auto 0
+
+  .steps-training-box
+    font-size: 12.5px
+    p
+      margin: 0 0 20px
+      &:last-child
+        margin: 0
+    &__icon
+      margin: 0 auto 9px
+      max-width: 42px
+    &:first-child
+      max-width: 110px
+    &:last-child
+      margin: 200px 0 0
+      max-width: 120px
+
+  .list-steps
+    top: 10px
+
+  .list-steps-item
+    width: 31px
+    height: 31px
+    min-width: 31px
+    margin: 0 0 162px
+    font-size: 12.5px
+    &:before
+      height: 155px
+      bottom: -158px
+
+  .workshop-instructor
+    h3.d-tablet
+      font-size: 23px
+      margin: 0 auto 45px
+      max-width: 210px
+    h2
+      margin: 0 auto 32px
+    &__photo
+      max-width: 280px
+      margin: 0 auto 23px
+
+  .workshop-instructor-advantages
+    max-width: 280px
+    margin: 0 auto
+    li
+      padding: 0 0 0 23px
+      &:before
+        width: 15px
+        height: 15px
+
+  .training-format
+    margin: 41px 0 45px
+    h2
+      margin: 0 auto 39px
+    .box-text
+      margin: 0 auto 45px
+      font-size: 12.5px
+      max-width: 260px
+      p
+        margin: 0 0 20px
+
+  .training-format-box
+    margin: 0 0 40px
+    &__number
+      margin: 0 8px 0 0
+      width: 42px
+      height: 42px
+      min-width: 42px
+      font-size: 20px
+    &:first-child
+      .training-format-box__text
+        max-width: 185px
+    &:nth-child(2)
+      .training-format-box__text
+        max-width: 240px
+    &:nth-child(3)
+      .training-format-box__text
+        max-width: 210px
+    &:nth-child(4)
+      .training-format-box__text
+        max-width: 230px
+
+  .stages-learn
+    h2
+      margin: 0 auto 45px
+    &__image
+      max-width: 160px
+      height: 325px
+    &__content
+      width: calc(100% - 160px)
+      padding: 0
+    .btn.d-tablet
+      margin: 50px auto 0
+
+  .step-learn
+    font-size: 12.5px
+    li
+      padding: 0 0 25px 23.5px
+      margin: 0 0 25px
+      &:last-child
+        padding-left: 23.5px
+      &:before
+        width: 47px
+        height: 1px
+    p
+      max-width: 110px
+
+  .themes
+    margin: 51px 0 46px
+    h2
+      margin: 0 auto 45px
+
+  .themes-box
+    margin: 0 0 10px
+    font-size: 12.5px
+    &:last-child
+      margin: 0
+    &__number
+      font-size: 81.5px
+      margin: 7px 7px 0 0
+      min-width: 90px
+      &:first-letter
+        letter-spacing: -4.08px
+    &:first-child
+      .themes-box__text
+        max-width: 140px
+    &:nth-child(2)
+      .themes-box__text
+        max-width: 200px
+    &:nth-child(3)
+      .themes-box__text
+        max-width: 140px
+    &:nth-child(4)
+      .themes-box__text
+        max-width: 130px
+    &:nth-child(5)
+      .themes-box__text
+        max-width: 135px
+    &:nth-child(6)
+      .themes-box__text
+        max-width: 110px
+    &:nth-child(7)
+      .themes-box__text
+        max-width: 95px
+
+  .influence
+
+    .wrapper-grey
+      margin: 57px auto 0
+      padding: 55px 0 57px
+    h3
+      font-size: 23px
+      margin: 45px auto 0
+
+  .influence-box
+    font-size: 12.5px
+    max-width: 190px
+    margin: 0 auto 39px
+    &__icon
+      margin: 0 auto 19px
+      max-width: 23px
+    &:nth-child(2)
+      max-width: 145px
+
+  .for-workshop
+    margin: 50px 0 43px
+    h2
+      margin: 0 auto 41px
+    .box-text
+      font-size: 12.5px
+
+  .for-workshop-box
+    margin: 0 0 47px
+    font-size: 12.5px
+    br
+      display: none
+    &__icon
+      margin: 0 0 18px
+      max-height: 29px
+    &:first-child
+      p
+        max-width: 135px
+    &:nth-child(2)
+      p
+        max-width: 125px
+    &:nth-child(3)
+      p
+        max-width: 125px
+    &:last-child
+      p
+        max-width: 105px
+
+  .for-workshop-footer
+    h3
+      font-size: 23px
+      padding: 10px 0 0
+      &:before
+        height: 2px
+        width: 168px
+        border-top: 2px solid #000
+    .box-text
+      margin: 30px 0
+
+      p
+        margin: 0 0 30px
+        &:last-child
+          margin: 0
+
+  h1
+    font-size: 29.5px
+    margin: 13px 0 30px
+
+  .name-author
+    font-size: 20.5px
+
+  .home
+    .description
+      font-size: 13.5px
+      margin: 0 0 30px
+
+  .home-list
+    margin: 69px 0 28px
+    font-size: 12.5px
+
+
+  .list-star
+    li
+      padding: 0 0 0 45px
+      margin: 0 0 30px
+      &:before
+        width: 28px
+        height: 27px
+
+  .home-footer
+    margin: 0 0 40px
+    h3
+      padding: 21px 0 0
+      font-size: 23px
+    .box-text
+      font-size: 12.5px
+      margin: 35px 0 0
 
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
-	/**/
+@media only screen and (max-width: 380px)
+  .callback
+    padding: 58px 0 57px
+    h2
+      font-size: 13.5px
+    .btn
+      max-width: 138px
+      margin: 14px auto 0
+
+  .btn
+    font-size: 7.5px
+
+  .prices-box
+    max-width: 176px
+    padding: 37px 19px
+    .btn
+      font-size: 7.5px
+      height: 31px
+      padding: 0 10px
+      max-width: 140px
+    .price
+      font-size: 20px
+      margin: 0 auto 31px
+    h3
+      font-size: 12.5px
+    .box-text
+      margin: 0 auto 36px
+      font-size: 12.5px
+    &:last-child
+      padding: 37px 9px
+      .price
+        margin: 0 auto 14px
+      .box-text
+        margin: 0 0 22px
+
+  body
+    font-size: 12.5px
+
+
+  header
+    padding: 16px 0
+    border-bottom-width: 2px
+
+  .logo
+    max-width: 147px
+
+  .home
+    padding: 106px 0 60px
