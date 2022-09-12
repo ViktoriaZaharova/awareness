@@ -1,15 +1,124 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1300px) {
+  .home-footer h3 {
+    max-width: 670px; } }
+
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  .name-author {
+    font-size: 70px; }
+  .home-footer {
+    margin: 0 0 97px; }
+    .home-footer h3 {
+      max-width: none;
+      padding: 53px 0 0; }
+    .home-footer .box-text {
+      max-width: none;
+      margin: 87px 0 0; }
+      .home-footer .box-text p {
+        margin: 0;
+        display: inline; }
+        .home-footer .box-text p br {
+          display: none; }
+  .home-list {
+    margin: 169px 0 70px; }
+  .for-workshop-footer {
+    margin: 15px 0 0; }
+    .for-workshop-footer .box-text {
+      max-width: none;
+      width: 100%;
+      margin: 0 0 40px; }
+      .for-workshop-footer .box-text br {
+        display: none; }
+    .for-workshop-footer h3 {
+      max-width: none;
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1;
+      margin: 0 0 55px; }
+      .for-workshop-footer h3:before {
+        width: 400px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .container {
+    max-width: 930px; }
+  header a {
+    font-size: 22px; }
+  .name-author {
+    font-size: 49.5px; }
+  h1 {
+    font-size: 71px;
+    margin: 34px 0 76px; }
+  .home {
+    padding: 256px 0 144px; }
+    .home .description {
+      font-size: 33px;
+      letter-spacing: 0.33px;
+      line-height: 1.09; }
+  .for-workshop-box:nth-child(4) {
+    max-width: 290px; }
+    .for-workshop-box:nth-child(4) p {
+      max-width: 240px; }
+  .for-workshop {
+    margin: 126px 0 107px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/ }
+  header a {
+    display: none; }
+  h1 {
+    font-size: 71px; }
+  .home {
+    background: url("../img/bg1-tablet.jpg") no-repeat center;
+      background-size: cover; }
+    .home .description br {
+      display: block; }
+  .home-list {
+    max-width: 630px; }
+    .home-list li:first-child {
+      max-width: 340px; }
+    .home-list br {
+      display: block; }
+  .for-workshop {
+    margin: 121px 0 107px; }
+    .for-workshop h2 {
+      margin: 0 auto 100px; }
+  .for-workshop-box {
+    margin: 0 0 120px; }
+  .for-workshop-footer h3 br {
+    display: block; }
+  .influence-box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 83px; }
+    .influence-box:last-child {
+      margin: 0 auto;
+      width: 100%; }
+    .influence-box p {
+      max-width: 435px;
+      margin: 0 auto; }
+    .influence-box__icon {
+      margin: 0 auto 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+  .influence .wrapper-grey {
+    margin: 139px 0 0;
+    padding: 131px 0 138px; }
+  .influence h3 {
+    margin: 111px auto 0;
+    display: none; }
+  .influence .d-tablet {
+    display: block; }
+  .themes-box:nth-child(even) {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -17,25 +126,4 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  /**/ }
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  /**/ }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
   /**/ }

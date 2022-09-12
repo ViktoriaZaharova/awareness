@@ -37,8 +37,8 @@
   font-family: "Circe";
   font-weight: 800;
   font-style: normal;
-  src: url("../fonts/Circe-ExtraBold.eot");
-  src: url("../fonts/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe-ExtraBold.woff") format("woff"), url("../fonts/Circe-ExtraBold.ttf") format("truetype"); }
+  src: url("../fonts/Circe/Circe-ExtraBold.eot");
+  src: url("../fonts/Circe/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Circe/Circe-ExtraBold.woff") format("woff"), url("../fonts/Circe/Circe-ExtraBold.ttf") format("truetype"); }
 
 * {
   -webkit-box-sizing: border-box;
@@ -73,10 +73,10 @@ table {
   border-spacing: 0; }
 
 body {
-  font-size: 16px;
+  font-size: 30px;
   min-width: 320px;
   position: relative;
-  line-height: normal;
+  line-height: 1.3;
   font-family: "Circe", sans-serif;
   font-weight: normal;
   background: #fff;
@@ -168,9 +168,10 @@ button, .btn {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.21px;
-  padding: 26px 46px;
+  padding: 10px 46px;
   border-radius: 36.5px;
-  line-height: 1; }
+  line-height: 1;
+  height: 73px; }
 
 .btn-accent {
   color: #fff;
@@ -256,3 +257,6 @@ h2 {
   width: 100%;
   background: rgba(238, 238, 238, 0.85);
   border: solid 1px #fff; }
+
+.bg-grey {
+  background: rgba(238, 238, 238, 0.85); }

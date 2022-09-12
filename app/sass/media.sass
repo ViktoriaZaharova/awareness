@@ -3,19 +3,144 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1300px)
+  .home-footer
+    h3
+      max-width: 670px
+
 @media only screen and (max-width : 1200px)
-	/**/
+  .name-author
+    font-size: 70px
+
+  .home-footer
+    margin: 0 0 97px
+    h3
+      max-width: none
+      padding: 53px 0 0
+    .box-text
+      max-width: none
+      margin: 87px 0 0
+      p
+        margin: 0
+        display: inline
+        br
+          display: none
+
+  .home-list
+    margin: 169px 0 70px
+
+  .for-workshop-footer
+    margin: 15px 0 0
+    .box-text
+      max-width: none
+      width: 100%
+      margin: 0 0 40px
+      br
+        display: none
+    h3
+      max-width: none
+      order: -1
+      margin: 0 0 55px
+      &:before
+        width: 400px
 
 
-/* Medium Devices, Desktops */
+
 @media only screen and (max-width : 992px)
-	/**/
+  .container
+    max-width: 930px
 
+  header
+    a
+      font-size: 22px
 
-/* Small Devices, Tablets */
+  .name-author
+    font-size: 49.5px
+
+  h1
+    font-size: 71px
+    margin: 34px 0 76px
+
+  .home
+    padding: 256px 0 144px
+    .description
+      font-size: 33px
+      letter-spacing: 0.33px
+      line-height: 1.09
+
+  .for-workshop-box:nth-child(4)
+    max-width: 290px
+    p
+      max-width: 240px
+
+  .for-workshop
+    margin: 126px 0 107px
+
 @media only screen and (max-width : 768px)
-	/**/
+  header
+    a
+      display: none
 
+  h1
+    font-size: 71px
+
+
+  .home
+    background: url("../img/bg1-tablet.jpg") no-repeat center
+      size: cover
+    .description
+      br
+        display: block
+
+  .home-list
+    max-width: 630px
+    li
+      &:first-child
+        max-width: 340px
+    br
+      display: block
+
+  .for-workshop
+    margin: 121px 0 107px
+    h2
+      margin: 0 auto 100px
+
+  .for-workshop-box
+    margin: 0 0 120px
+
+  .for-workshop-footer
+    h3
+      br
+        display: block
+
+  .influence-box
+    width: 100%
+    text-align: center
+    margin: 0 auto 83px
+    &:last-child
+      margin: 0 auto
+      width: 100%
+    p
+      max-width: 435px
+      margin: 0 auto
+    &__icon
+      margin: 0 auto 50px
+      display: flex
+      align-items: center
+      justify-content: center
+
+  .influence
+    .wrapper-grey
+      margin: 139px 0 0
+      padding: 131px 0 138px
+    h3
+      margin: 111px auto 0
+      display: none
+    .d-tablet
+      display: block
+
+  .themes-box:nth-child(even)
+    justify-content: flex-start
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
@@ -25,31 +150,3 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
-
-
-/*==========  Mobile First  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
-	/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)
-	/**/
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px)
-	/**/
-
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
-	/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px)
-	/**/
-

@@ -5,7 +5,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  padding: 41px 0 38px;
+  padding: 38px 0 38px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.4); }
   header a {
     color: #fff;
@@ -13,6 +13,10 @@ header {
     font-weight: bold; }
     header a:hover {
       color: #1955ff; }
+  header .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .logo {
   margin: 0 auto;
