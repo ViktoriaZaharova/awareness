@@ -649,13 +649,13 @@
       min-width: 42px;
       font-size: 20px; }
     .training-format-box:first-child .training-format-box__text {
-      max-width: 185px; }
+      max-width: none; }
     .training-format-box:nth-child(2) .training-format-box__text {
-      max-width: 240px; }
+      max-width: none; }
     .training-format-box:nth-child(3) .training-format-box__text {
-      max-width: 210px; }
+      max-width: none; }
     .training-format-box:nth-child(4) .training-format-box__text {
-      max-width: 230px; }
+      max-width: none; }
   .stages-learn h2 {
     margin: 0 auto 45px; }
   .stages-learn__image {
